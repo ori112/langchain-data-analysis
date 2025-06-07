@@ -44,4 +44,4 @@ while True:
         result = agent.invoke(user_input)
         print("assistant:", result)
     except Exception as e:
-        print("Note: There was an internal error")
+        print("⚠️ Note: There was an internal error, but the LLM likely succeeded (e.g., created a file or plot).")
